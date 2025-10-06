@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Perkenalan — Keysha Sriamrilya</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');:root{ --bg1:#EEC0FF; --bg2:#FFD6F6; --card:#ffffff; --accent:#D88CFF; --text:#222; --muted:#555 }
+*{box-sizing:border-box}
+body{
+  font-family:'Fredoka One', cursive;
+  background:linear-gradient(270deg,var(--bg1),var(--bg2));
+  background-size:400% 400%;
+  animation:gradientBG 10s ease infinite;
+  color:var(--text); margin:0; padding:32px;
+}
+@keyframes gradientBG {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes bounceIn {
+  0%{transform:scale(0.8);opacity:0}
+  50%{transform:scale(1.05);opacity:1}
+  100%{transform:scale(1)}
+}
+@keyframes fadeInUp {
+  0%{opacity:0;transform:translateY(20px)}
+  100%{opacity:1;transform:translateY(0)}
+}
+.container{max-width:800px;margin:0 auto;background:var(--card);border-radius:20px;box-shadow:0 8px 30px rgba(16,24,40,0.12);padding:28px;position:relative;z-index:1;animation:fadeInUp 1.2s ease}
+header{display:flex;gap:16px;align-items:center}
+.avatar{width:88px;height:88px;border-radius:16px;background:linear-gradient(135deg,#F3C4FB,#FAD0F7);display:flex;align-items:center;justify-content:center;font-weight:700;color:#7A1B9A;font-size:22px;animation:bounceIn 1.2s ease}
+h1{margin:0 0 6px 0;font-size:30px;color:#7A1B9A;animation:bounceIn 1.5s ease}
+p.lead{margin:0;color:var(--muted);animation:fadeInUp 2s ease}
+.content{margin-top:18px;line-height:1.8}
+.content p{animation:fadeInUp 1.8s ease}
+.highlight{font-weight:700;color:#B02E7A}
+footer{margin-top:22px;color:var(--muted);font-size:14px;text-align:center;animation:fadeInUp 2.5s ease}
+@media (max-width:520px){body{padding:18px}.container{padding:18px}}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">KS</div>
+      <div>
+        <h1>Halo semuanya!</h1>
+        <p class="lead">Perkenalkan: <span class="highlight">Keysha Sriamrilya</span> — siswa <span class="highlight">SMAN 14 Pekanbaru</span>.</p>
+      </div>
+    </header><div class="content">
+  <p>Halo teman-teman, kenalin aku Keysha Sriamrilya. Aku sekarang sekolah di SMAN 14 Pekanbaru. Aku orangnya santai, gampang akrab sama siapa aja, dan senang bisa kenalan dengan banyak orang baru.</p>
+
+  <p>Hobiku adalah mendengarkan musik, menonton film, dan juga olahraga. Musik dan film buat aku jadi lebih rileks, sementara olahraga bikin aku tetap semangat dan sehat. Jadi kalau lagi senggang, biasanya aku ngisi waktu dengan salah satu dari itu.</p>
+
+  <p>Kalau ada waktu luang, aku biasanya pilih buat ngerjain hal yang produktif atau nyoba kegiatan baru biar nggak bosen. Aku termasuk tipe yang nggak betah diem — lebih sering ikut kegiatan, gabung komunitas, atau sekadar nongkrong seru sama teman.</p>
+
+  <p>Aku juga senang bercanda supaya suasana jadi lebih seru dan nggak tegang. Selain itu, aku lebih banyak ikut kegiatan karena menurutku pengalaman baru itu selalu menarik dan bisa bikin aku belajar hal-hal baru.</p>
+
+  <p>Buat aku, hidup lebih enak dijalani dengan semangat dan jangan terlalu ribet mikirin hal-hal kecil. Selama kita bisa nikmatin prosesnya, apapun tantangan pasti bisa dilewatin. Aku berharap bisa sering ngobrol, tukar cerita, dan bikin pengalaman seru bareng kalian semua di SMAN 14 Pekanbaru.</p>
+
+  <p>Jangan sungkan buat nyapa aku kalau ketemu ya! Siapa tahu kita bisa jadi teman ngobrol atau partner seru di berbagai kegiatan.</p>
+</div>
+
+<footer>
+  Senang bisa kenalan dengan kalian semua ✨
+</footer>
+
+  </div>
+</body>
+</html>
